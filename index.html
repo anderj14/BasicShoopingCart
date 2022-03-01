@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Shopping car</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="sectionOne">
+        <article class="article-one">
+          <div class="card">
+            <img src="images/beer-corona.jpg" alt="corona" />
+            <div class="card-details">
+              <h4>Beer Corona</h4>
+              <h5>$1</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, maxime!
+              </p>
+              <button class="button-drink" data-drink="Beer Corona" data-price="1">Shopp</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-two">
+          <div class="card">
+            <img src="images/beer-heineken.jpg" alt="heineken" />
+            <div class="card-details">
+              <h4>Beer Heineken</h4>
+              <h5>$1.20</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, adipisci?
+              </p>
+              <button class="button-drink" data-drink="Beer Heineken" data-price="1.20">Shopp</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-three">
+          <div class="card">
+            <img src="images/wine-jacobs.jpg" alt="jacobs" />
+            <div class="card-details">
+              <h4>Wine Jacobs</h4>
+              <h5>$50</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, repellendus!
+              </p>
+              <button class="button-drink" data-drink="Wine Jacobs" data-price="50">Shopp</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-four">
+          <div class="card">
+            <img src="images/wine-palacio.jpg" alt="palacio" />
+            <div class="card-details">
+              <h4>Wine Palacio</h4>
+              <h5>$65</h5>
+              <p>
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, ex?
+              </p>
+              <button class="button-drink" data-drink="Wine Palacio" data-price="65">Shopp</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-five">
+          <div class="card">
+            <img src="images/wine-sauvignon.jpg" alt="sauvigno" />
+            <div class="card-details">
+              <h4>Wine Sauvigno</h4>
+              <h5>$55</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, iste!
+              </p>
+              <button class="button-drink" data-drink="Wine Sauvigno" data-price="55">Shopp</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="article-six">
+          <div class="card">
+            <img src="images/wine.jpg" alt="wine" />
+            <div class="card-details">
+              <h4>Wine Blank</h4>
+              <h5>$30</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, possimus.
+              </p>
+              <button class="button-drink" data-drink="Wine Blank" data-price="30">Shopp</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="sectionTwo">
+        <div class="partOne">
+          <ul id="shoppingCar"></ul>
+          <template id="templateShoppingCar">
+            <li class="description">
+                <span class="title"></span>
+                <span class="lot"></span>
+            </li>
+  
+            <li class="buttons">
+                <div class="article-total">
+                    <p class="total">Total: $<span></span></p>
+                </div>
+                <div class="rev-add">
+                    <button class="remove">Remove</button>
+                    <button class="add">Add</button>
+                </div>
+            </li>
+          <hr>
+          </template>
+        </div>
+
+        <div class="partTwo">
+          <footer id="footer"></footer>
+          <template id="templateFooter">
+            <div class="footertotal">
+              <p class="total">Total: $<span></span></p>
+              </div>
+          </template>
+        </div>
+      </section>
+     
+    </main>
+
+  </body>
+  <script src="app.js"></script>
+</html>

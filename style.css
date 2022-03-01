@@ -1,0 +1,115 @@
+body{
+    background-color: #eeeeee;
+}
+main{
+    width: 1280px;
+    display: flex;
+}
+
+.sectionOne{
+    width: 60%;
+    /*margin: 0 auto;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.sectionTwo{
+    margin-left: 50px;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 150px;
+    /*margin-left: 40px;*/
+}
+
+article{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+}
+
+.card .card-details h4,h5{
+    color: #161616;
+    text-align: center;
+}
+
+.card .card-details p{
+    color: #3b3b3b;
+}
+
+.card .card-details button{
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card .card-details button:disabled {
+  pointer-events: none;
+}
+
+.card .card-details button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.card .card-details button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Template */
+
+ul{
+    list-style: none;
+}
+li{
+    color: #161616;
+    font-size: 18px;
+}
+
+.description .lot{
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.article-total p{
+    margin-top: -2px;
+}
+
+.rev-add{
+    margin-bottom: 10px;
+}
+.rev-add button{
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #cfcfcf;
+}
+.remove{
+    margin-right: 5px;
+}
+.rev-add button:disabled {
+    pointer-events: none;
+  }
+  
+.rev-add button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+  
+.rev-add button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.templateShoppingCar{
+    background-color: #161616;
+}
+hr{
+}
